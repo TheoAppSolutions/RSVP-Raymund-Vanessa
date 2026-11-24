@@ -1,4 +1,4 @@
-import RsvpForm from "@/components/RsvpForm";
+import Link from "next/link";
 import DesignShell from "@/components/MusicPlayer";
 import Hero from "@/components/Hero";
 import Countdown from "@/components/Countdown";
@@ -23,8 +23,10 @@ export default function Home() {
         <Entourage />
         <section id="rsvp" className="scroll-mt-4 bg-dusty-100 px-6 py-20">
           <div className="mx-auto max-w-lg">
-            <h2 className="mb-8 text-center font-serif text-4xl">Kindly Reply</h2>
-            <RsvpForm variant={1} />
+            <h2 className="mb-8 text-center font-serif text-4xl">Guest Responses</h2>
+            <Link href="/admin" className="flex w-full items-center justify-center rounded-full bg-dusty-700 px-8 py-4 text-xs font-medium text-white shadow-md transition hover:-translate-y-0.5 hover:bg-dusty-800 hover:shadow-lg focus:outline-none focus-visible:ring-4 focus-visible:ring-dusty-300">
+              Open Admin Dashboard
+            </Link>
           </div>
         </section>
       </main>

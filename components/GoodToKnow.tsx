@@ -68,12 +68,12 @@ export default function GoodToKnow() {
         </div>
 
         <div className="mt-10 rounded-[1.5rem] border border-dusty-300 bg-dusty-900 px-6 py-8 text-center text-white shadow-[0_20px_55px_rgba(54,75,93,0.16)] sm:px-10">
-          <p className="text-[10px] uppercase tracking-[0.4em] text-dusty-200">Kindly reply by November 30, 2026</p>
+          <p className="text-[10px] uppercase tracking-[0.4em] text-dusty-200">Guest responses</p>
           <p className="mx-auto mt-3 max-w-2xl font-serif text-2xl leading-snug text-white/95 sm:text-3xl">
-            Due to limited seating, we can reserve a seat only for guests who confirm their attendance.
+            Thank you to everyone who confirmed their attendance and shared their wishes with us.
           </p>
           <a href="#rsvp" className="mt-6 inline-flex rounded-full bg-white px-7 py-3 text-[10px] font-medium uppercase tracking-[0.3em] text-dusty-900 transition hover:-translate-y-0.5 hover:bg-dusty-100 focus:outline-none focus-visible:ring-4 focus-visible:ring-dusty-300">
-            Confirm attendance
+            View guest responses
           </a>
         </div>
       </div>

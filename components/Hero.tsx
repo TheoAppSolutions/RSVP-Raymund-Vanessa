@@ -66,7 +66,7 @@ export default function Hero({ variant = 1 }: { variant?: 1 | 2 | 3 }) {
             onClick={goToRsvp}
             className="rounded-full bg-white px-8 py-3.5 text-[10px] font-medium uppercase tracking-[0.3em] text-dusty-900 shadow-lg transition hover:-translate-y-0.5 hover:bg-dusty-100 focus:outline-none focus-visible:ring-4 focus-visible:ring-dusty-300"
           >
-            Kindly RSVP
+            View guest responses
           </button>
           <a
             href="#venues"
